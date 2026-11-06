@@ -1,0 +1,17 @@
+name: LandClaim
+version: 1.0.0
+main: kr.landclaim.LandPlugin
+api-version: "26.2"
+description: 청크 땅 구매 / 보호 / 지도 시스템
+commands:
+  land:
+    description: 땅 시스템 명령어
+    usage: /land help
+    aliases: [lc]
+permissions:
+  land.admin:
+    description: 땅 관리자 명령어 사용
+    default: op
+  land.bypass:
+    description: 남의 땅/공용 땅에서도 건축 가능
+    default: op

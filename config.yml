@@ -1,0 +1,20 @@
+# 땅 시스템을 적용할 월드 이름 (아터노스 기본 월드 이름은 보통 world)
+world: world
+
+# 구매 가능한 5x5 청크의 중심 청크 좌표 (0,0 블록이 있는 청크 = 0, 0)
+center-chunk-x: 0
+center-chunk-z: 0
+
+# 다이아몬드 가격: base에서 시작해 문서가 팔릴 때마다 2배, max에서 멈춤
+price:
+  base: 8
+  max: 128
+
+# true: 땅 문서에 리소스팩의 두루마리 모델 사용 (리소스팩을 쓰지 않으면 false)
+use-custom-model: true
+
+# 접속 시 자동으로 보낼 리소스팩 (url을 비워두면 보내지 않음)
+resource-pack:
+  url: ""
+  sha1: ""
+  force: false
